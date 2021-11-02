@@ -14,13 +14,14 @@ knitr::opts_chunk$set(echo = TRUE)
 1) Please explain 1 of Wilson et. al's suggestions for good practices in computational reproducibility:
 
 
-
-
-
+Wilson et. al suggest many practices for good computational reproducibility. 
+Beyond data management in Git, I want to focus on the "Software" section, specifically commenting code. 
+R allows comments to be placed all throughout the code to not only explain what each line means but how it fits into the project as whole. 
+It is important not to just to comment the occasional line, but to have full explanations and examples within your funciton so that users can understand how to implement it. 
 2) Please find the square root of 4 to the 13th power, writing your code in the gray box below so that it executes and provides the answer. Hit the play button to make sure it works:
 
 ```{r}
-
+sqrt(4^13)
 ```
 
 3) Save your file and add it to your GitHub repository at: https://classroom.github.com/a/WO52_vGE
